@@ -1,0 +1,7 @@
+﻿node_modules/
+_dev/
+_v1-backup/
+out/
+.dsh-meow/
+debug.log
+*.zip

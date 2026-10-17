@@ -1,0 +1,201 @@
+{
+  "source": "bilibili-study/scripts/bili_score.py (authoritative Python implementation)",
+  "generatedAt": "2026-10-17T10:57:12.436Z",
+  "cases": [
+    {
+      "id": "resource-dump-748",
+      "input": {
+        "title": "全748集 Python零基础到精通教程",
+        "desc": "全套课程",
+        "play": 12000,
+        "like": 300
+      },
+      "expect": {
+        "score": 27,
+        "verdict": "不建议看(引流嫌疑)",
+        "reasons": [
+          "-35 标题「全748集」,上百集的合集基本是资源号凑数",
+          "+12 播放 1.2万、点赞率 2.5%,互动健康"
+        ]
+      }
+    },
+    {
+      "id": "speed-7days",
+      "input": {
+        "title": "7天从小白到大神：Java速成",
+        "desc": "",
+        "play": 800,
+        "like": 20
+      },
+      "expect": {
+        "score": 0,
+        "verdict": "不建议看(引流嫌疑)",
+        "reasons": [
+          "-30 标题承诺「7天从小白」,典型速成话术",
+          "-20 播放量仅 800 却堆夸张词,数据与话术不匹配"
+        ]
+      }
+    },
+    {
+      "id": "handwritten-os",
+      "input": {
+        "title": "手写操作系统 第3讲 中断与异常",
+        "desc": "配套代码见 github.com/example/os-101 欢迎交流",
+        "play": 20000,
+        "like": 600,
+        "pageCount": 40,
+        "avgPageSeconds": 900,
+        "durationSeconds": 36000
+      },
+      "expect": {
+        "score": 100,
+        "verdict": "强烈推荐",
+        "reasons": [
+          "+20 简介含代码仓库/论文站(github.com)",
+          "+12 标题含具体技术名词「手写」,不是纯情绪标题",
+          "+8 标题带具体章节/论文编号「第3讲」",
+          "+12 播放 2.0万、点赞率 3.0%,互动健康",
+          "+12 40 个分P、平均 15.0 分钟/集,像成体系的真课程"
+        ]
+      }
+    },
+    {
+      "id": "save-it",
+      "input": {
+        "title": "存下吧！很难找全的算法笔记",
+        "desc": "",
+        "play": 3000,
+        "like": 40
+      },
+      "expect": {
+        "score": 38,
+        "verdict": "不建议看(引流嫌疑)",
+        "reasons": [
+          "-15 标题「存下吧」收藏党话术",
+          "-15 标题「很难找全」稀缺性话术",
+          "+12 标题含具体技术名词「算法」,不是纯情绪标题",
+          "+6 播放 3000、点赞率 1.3%,互动正常"
+        ]
+      }
+    },
+    {
+      "id": "zero-basis-week",
+      "input": {
+        "title": "零基础一周速成英语口语",
+        "desc": "",
+        "play": 50000,
+        "like": 300
+      },
+      "expect": {
+        "score": 15,
+        "verdict": "不建议看(引流嫌疑)",
+        "reasons": [
+          "-25 标题「零基础+短期速成」组合话术",
+          "-10 标题含速成/速通话术"
+        ]
+      }
+    },
+    {
+      "id": "mit-linear-algebra",
+      "input": {
+        "title": "MIT 18.06 线性代数 第1章 Introduction",
+        "desc": "完整课程，讲义与习题见 github.com/mitmath/1806 。本课程讲解线性代数的核心概念：矩阵、向量空间、特征值。",
+        "play": 1200000,
+        "like": 40000,
+        "pageCount": 35,
+        "avgPageSeconds": 1200,
+        "durationSeconds": 42000
+      },
+      "expect": {
+        "score": 100,
+        "verdict": "强烈推荐",
+        "reasons": [
+          "+20 简介含代码仓库/论文站(github.com)",
+          "+12 标题含具体技术名词「线性代数」,不是纯情绪标题",
+          "+8 标题带具体章节/论文编号「第1章」",
+          "+12 播放 120.0万、点赞率 3.3%,互动健康",
+          "+12 35 个分P、平均 20.0 分钟/集,像成体系的真课程"
+        ]
+      }
+    },
+    {
+      "id": "clickbait-500",
+      "input": {
+        "title": "【必看】全网最强AI神器，看完震惊",
+        "desc": "",
+        "play": 500,
+        "like": 2
+      },
+      "expect": {
+        "score": 30,
+        "verdict": "不建议看(引流嫌疑)",
+        "reasons": [
+          "-20 播放量仅 500 却堆夸张词,数据与话术不匹配"
+        ]
+      }
+    },
+    {
+      "id": "netdisk",
+      "input": {
+        "title": "完整版课程 资源放在百度网盘 评论区自取",
+        "desc": "",
+        "play": 9000,
+        "like": 100
+      },
+      "expect": {
+        "score": 1,
+        "verdict": "不建议看(引流嫌疑)",
+        "reasons": [
+          "-15 标题「完整版课程」,多为搬运/打包资源",
+          "-25 标题出现网盘,疑似卖资源/引流",
+          "-15 标题引导到评论区/私信领取,引流特征",
+          "+6 播放 9000、点赞率 1.1%,互动正常"
+        ]
+      }
+    },
+    {
+      "id": "fragmented",
+      "input": {
+        "title": "每天5分钟 Python 小技巧",
+        "desc": "短小精悍",
+        "play": 8000,
+        "like": 200,
+        "pageCount": 200,
+        "avgPageSeconds": 120,
+        "durationSeconds": 24000
+      },
+      "expect": {
+        "score": 51,
+        "verdict": "一般,谨慎",
+        "reasons": [
+          "+12 标题含具体技术名词「Python」,不是纯情绪标题",
+          "+12 播放 8000、点赞率 2.5%,互动健康",
+          "-15 分P 多达 200,超过 150 集多为灌水合集",
+          "-8 平均每集仅 2.0 分钟,碎片化凑数"
+        ]
+      }
+    },
+    {
+      "id": "live-replay",
+      "input": {
+        "title": "直播回放：AI 编程实战",
+        "desc": "直播录像",
+        "play": 6000,
+        "like": 90,
+        "pageCount": 1,
+        "avgPageSeconds": 25200,
+        "durationSeconds": 25200
+      },
+      "expect": {
+        "score": 64,
+        "verdict": "一般,谨慎",
+        "reasons": [
+          "+12 标题含具体技术名词「实战」,不是纯情绪标题",
+          "+6 播放 6000、点赞率 1.5%,互动正常",
+          "-10 总时长 7.0 小时却只有 1 个分P,多为直播录像/资源拼接",
+          "+6 1 个分P、平均 420.0 分钟/集,结构正常"
+        ]
+      }
+    }
+  ]
+}

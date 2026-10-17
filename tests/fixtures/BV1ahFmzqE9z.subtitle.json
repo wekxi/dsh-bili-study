@@ -1,0 +1,788 @@
+{
+  "note": "真实 B站 AI 中文字幕样本（公开视频 BV1ahFmzqE9z，只用于单测；来源：bilibili-study 技能的 study_fetch 产物，2026-10 抓取）",
+  "bvid": "BV1ahFmzqE9z",
+  "title": "【2026版Agent Skills保姆级教程】2小时从会用到会造，全方位提升工作效率。Claude Skills、Agent技能、OpenCode",
+  "source": "bilibili ai-zh subtitle (real, public)",
+  "segments": [
+    {
+      "start": 0.28,
+      "end": 0,
+      "text": "大家好",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 0.84,
+      "end": 0,
+      "text": "我是谭森老师",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 1.92,
+      "end": 0,
+      "text": "博学谷呢联合黑马程序员啊",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 4.06,
+      "end": 0,
+      "text": "又给大家带来新的课程了",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 6.21,
+      "end": 0,
+      "text": "最近呢这个agent skills啊",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 8.51,
+      "end": 0,
+      "text": "可以说是火的不得了",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 10.59,
+      "end": 0,
+      "text": "那这个scale呢你就可以把它理解为呀",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 13.35,
+      "end": 0,
+      "text": "在各个行业",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 14.49,
+      "end": 0,
+      "text": "各个领域里的这些专家大佬们",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 17.03,
+      "end": 0,
+      "text": "把他们的工作经验",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 18.61,
+      "end": 0,
+      "text": "做事流程打包成了一份提示词",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 21.33,
+      "end": 0,
+      "text": "你呢直接拿过来用就好了",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 23.75,
+      "end": 0,
+      "text": "比如说啊我这里有一份一个营销大佬啊",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 26.77,
+      "end": 0,
+      "text": "把他如何让公众号文章获得更多",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 29.75,
+      "end": 0,
+      "text": "曝光和互动的经验整理成的提示词",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 32.72,
+      "end": 0,
+      "text": "在这份提示词中呢",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 34.38,
+      "end": 0,
+      "text": "就很清楚的告诉了你每一步需要做什么",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 37.78,
+      "end": 0,
+      "text": "优化文章的原则是什么",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 40.25,
+      "end": 0,
+      "text": "那把这份提示词给到智能体呢",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 42.65,
+      "end": 0,
+      "text": "他就是营销领域的一个专家了",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 45.25,
+      "end": 0,
+      "text": "你呢也可以从营销小白一跃成为营销大佬",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 49.65,
+      "end": 0,
+      "text": "那现在呢各行各业啊",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 51.57,
+      "end": 0,
+      "text": "已经累积了13万多个scale了",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 54.07,
+      "end": 0,
+      "text": "并且还在持续的增加",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 55.85,
+      "end": 0,
+      "text": "那我们可以来到这样一个网站上",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 57.79,
+      "end": 0,
+      "text": "按照分类进行查看",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 59.55,
+      "end": 0,
+      "text": "比如说有工具型的scale啊",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 61.71,
+      "end": 0,
+      "text": "这里面有生产力的工具啊",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 63.15,
+      "end": 0,
+      "text": "自动化工具啊啊有跟开发相关的",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 65.68,
+      "end": 0,
+      "text": "不管你是做前端开发",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 67.42,
+      "end": 0,
+      "text": "全站还是做架构啊",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 68.88,
+      "end": 0,
+      "text": "这里面总能找到你心仪的SCLE啊",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 71,
+      "end": 0,
+      "text": "还有这种啊商业化的啊",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 72.75,
+      "end": 0,
+      "text": "做这个内容啊",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 74.21,
+      "end": 0,
+      "text": "自媒体的呀啊",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 75.67,
+      "end": 0,
+      "text": "然后呢做学术研究的啊等等等等",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 78.17,
+      "end": 0,
+      "text": "如果你能够学会使用这些scale",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 81.05,
+      "end": 0,
+      "text": "那你也能够做到",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 82.43,
+      "end": 0,
+      "text": "像这位叫SENA瑞斯的美国博主一样",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 85.18,
+      "end": 0,
+      "text": "用AI呀去卖这个普拉提袜子",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 87.8,
+      "end": 0,
+      "text": "30天哦",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 88.78,
+      "end": 0,
+      "text": "狂赚270万美金",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 90.81,
+      "end": 0,
+      "text": "那这哥们呢全程啊就是一个人用AI来设计产品",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 94.85,
+      "end": 0,
+      "text": "搭建网站",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 95.75,
+      "end": 0,
+      "text": "撰写视频脚本",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 97.19,
+      "end": 0,
+      "text": "那现在呢如果你也想像他一样啊",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 99.51,
+      "end": 0,
+      "text": "比如说我现在搞一个卖土特产的网站",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 102.31,
+      "end": 0,
+      "text": "但是呢我不会建网站啊",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 104.31,
+      "end": 0,
+      "text": "没关系啊",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 105.19,
+      "end": 0,
+      "text": "下载一个做网站的scale",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 107.41,
+      "end": 0,
+      "text": "你就能够做出一个像这样的网站了",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 110.65,
+      "end": 0,
+      "text": "然后呢你又想说哎我想做一个网站的介绍视频",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 114.07,
+      "end": 0,
+      "text": "但是我不会做呀",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 115.13,
+      "end": 0,
+      "text": "啊那我们下载一个做视频的scale",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 117.95,
+      "end": 0,
+      "text": "我们就可以做出这样的一个网站介绍视频来",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 140.6,
+      "end": 0,
+      "text": "那看完之后",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 142.54,
+      "end": 0,
+      "text": "大家内心是不是还是有点小激动的呀",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 145.16,
+      "end": 0,
+      "text": "其实这个agent skills呢",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 147.16,
+      "end": 0,
+      "text": "最初啊是ANTHROPIC公司推出来",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 149.8,
+      "end": 0,
+      "text": "为了增强自家的这个cloud code的这个功能的",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 153.46,
+      "end": 0,
+      "text": "但是后来呢大家发现啊",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 155.26,
+      "end": 0,
+      "text": "它实在是太好用了",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 156.62,
+      "end": 0,
+      "text": "于是呢行业纷纷跟进",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 158.83,
+      "end": 0,
+      "text": "所以说在这样的背景下呢",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 160.69,
+      "end": 0,
+      "text": "这个25年12月18日啊",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 163.23,
+      "end": 0,
+      "text": "官方呢就正式将agent skills发布成为一个跨平台",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 167.49,
+      "end": 0,
+      "text": "跨产品可复用的一个标准",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 169.76,
+      "end": 0,
+      "text": "那这其实就意味着agent skills呢",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 172.3,
+      "end": 0,
+      "text": "已经从一个好用的功能啊",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 174.46,
+      "end": 0,
+      "text": "变成了AI agent领域的一个通用的范式",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 178.07,
+      "end": 0,
+      "text": "他现在正在重塑这个AI时代",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 181.28,
+      "end": 0,
+      "text": "所以我们本套教程呢就是教大家如何",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 184.64,
+      "end": 0,
+      "text": "在两个小时之内从会用scale到会造scale",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 188.69,
+      "end": 0,
+      "text": "学完之后呢",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 189.79,
+      "end": 0,
+      "text": "我们还会完成这样的一个案例",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 192.01,
+      "end": 0,
+      "text": "这个案例呢其实是我个人的一个痛点啊",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 194.67,
+      "end": 0,
+      "text": "就是每到周五下午的时候呢",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 196.57,
+      "end": 0,
+      "text": "我就特别的焦虑",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 197.69,
+      "end": 0,
+      "text": "因为呢又要交周报了",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 199.51,
+      "end": 0,
+      "text": "每周呢琐碎的做了一堆的事情",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 202.03,
+      "end": 0,
+      "text": "但是呢要写周报的时候",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 203.97,
+      "end": 0,
+      "text": "只能在文胆面前陷入苦思",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 206.37,
+      "end": 0,
+      "text": "我很难想象那些需要交日报的朋友们是啥心情",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 210.26,
+      "end": 0,
+      "text": "但最后呢我灵机一动啊",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 212.04,
+      "end": 0,
+      "text": "干脆呢写一个自动周报的scale",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 215.15,
+      "end": 0,
+      "text": "来",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 215.51,
+      "end": 0,
+      "text": "根据我每周做的这些东西",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 217.59,
+      "end": 0,
+      "text": "产出一个规范化的周报",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 219.75,
+      "end": 0,
+      "text": "大家看一下是不是还可以啊",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 222.4,
+      "end": 0,
+      "text": "另外呢我们本套教程用到的相关scale",
+      "page": "P01 01-课程导学"
+    },
+    {
+      "start": 0.12,
+      "end": 0,
+      "text": "好的同学们",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 0.92,
+      "end": 0,
+      "text": "有人呢可能会有疑问啊",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 2.52,
+      "end": 0,
+      "text": "说老师啊",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 3.24,
+      "end": 0,
+      "text": "咱们演示的呢是在open code这个智能体下",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 6.6,
+      "end": 0,
+      "text": "如何去使用skills",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 8.22,
+      "end": 0,
+      "text": "那我平时用的呢是这个cloud code啊",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 10.82,
+      "end": 0,
+      "text": "或者说这个codex啊",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 12.46,
+      "end": 0,
+      "text": "或者说这个cursor",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 13.62,
+      "end": 0,
+      "text": "那在这些智能体下如何使用这个skills呢",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 16.98,
+      "end": 0,
+      "text": "啊其实这个东西呢是一通百通啊",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 19.12,
+      "end": 0,
+      "text": "就是你把scale放到哪的问题啊",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 21.94,
+      "end": 0,
+      "text": "你比如说咱们讲的这个open code",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 23.68,
+      "end": 0,
+      "text": "然后呢如果是在项目下",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 25.44,
+      "end": 0,
+      "text": "我们说在当前项目下呢有一个点OPENCODE的文件夹",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 28.72,
+      "end": 0,
+      "text": "它下面有一个scales的文件夹",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 30.58,
+      "end": 0,
+      "text": "咱们呢把scale下载好的那些scale啊",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 33.18,
+      "end": 0,
+      "text": "扔到这个文件夹下就可以了",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 35.05,
+      "end": 0,
+      "text": "那如果你换成这个cloud code呢",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 37.45,
+      "end": 0,
+      "text": "也是一样啊",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 38.29,
+      "end": 0,
+      "text": "在当前项目的这个目录下",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 40.45,
+      "end": 0,
+      "text": "有一个点cloud的这么一个文件夹",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 43.02,
+      "end": 0,
+      "text": "在它下面呢有一个scales的文件夹",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 45.26,
+      "end": 0,
+      "text": "同样把你的scale呢扔到这个文件夹下就可以了",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 48.94,
+      "end": 0,
+      "text": "那换成其他的cursor",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 50.34,
+      "end": 0,
+      "text": "哎那就是这样的一个目录",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 52.08,
+      "end": 0,
+      "text": "对不对",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 52.68,
+      "end": 0,
+      "text": "换成codex呢",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 53.66,
+      "end": 0,
+      "text": "哎那就是这样的一个目录",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 55.19,
+      "end": 0,
+      "text": "OK这是这种项目级的目录",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 57.39,
+      "end": 0,
+      "text": "那全局的这么一个目录呢",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 59.59,
+      "end": 0,
+      "text": "唉就是我们右边写的这样的一个目录了",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 62.2,
+      "end": 0,
+      "text": "那下面呢我们一块来看看啊",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 64.77,
+      "end": 0,
+      "text": "呃我本地呢啊这个地方有一个demo1",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 67.07,
+      "end": 0,
+      "text": "我就把它当做咱们当前项目的一个目录了啊",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 70.46,
+      "end": 0,
+      "text": "然后呢进去之后呢",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 71.78,
+      "end": 0,
+      "text": "我这有个点cloud啊",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 73.42,
+      "end": 0,
+      "text": "进来之后呢有一个scales scales",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 75.3,
+      "end": 0,
+      "text": "下面呢",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 75.92,
+      "end": 0,
+      "text": "现在啊这里面呢我已经犯了17个这个scale了",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    },
+    {
+      "start": 80.54,
+      "end": 0,
+      "text": "然后我的这个本机电脑呢",
+      "page": "P15 15-claudecode等其他智能体使用skills"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+# ============================================================================
+# dsha-bili-study —— DSH bundle patch（插件**自带**的挂载声明）
+# ============================================================================
+# 装上之后，profile 只要在 `dsh.profile.bundles` 里列出本包名即生效，
+# 不用手改 profile 自己的 cordis.patch.yml：
+#
+#   dsh plugin --profile work add link:<这个目录>
+#   （手机上：插件市场粘 GitHub 链接 / 导入 zip / `dsha-plugin install`）
+#
+# ⚠️ 这里的 config 只是**默认值**。真正的用户配置在家目录的
+#    `$DSH_HOME/dsha-bili-study/config.json`（设置页写的那份会盖过这里）。
+# ⚠️ `id` 必须等于设置命名空间名（index.js 里 `settings.register('bili-study', …)`）——
+#    否则 DSH 自带设置编辑器写不进去。
+# ============================================================================
+
+- insert:
+    - id: bili-study
+      name: dsh-bili-study
+      config:
+        enabled: true
+        # 每天挑几条（0 = 不自动挑，只能手动跑）
+        perDay: 2
+        # 只挑可靠性分 >= 这个值的（<50 基本是引流号）
+        minScore: 55
+        # 只看最近几天发布的
+        days: 7
+        # 字幕语言轨道（B站 的 AI 中文字幕轨道就是 ai-zh）
+        subtitleLang: ai-zh
+        # 一条视频最多读几个分P 的字幕（手机上别贪多）
+        maxPages: 2
+        # 只在 DeepSeek 谷时跑（工作日 9-12 / 14-18 是高峰）
+        peakValley: true
+        noon: true
+        night: false
+        # 补跑：安卓会杀后台 + Doze 掐定时器 ⇒ 今天没跑就下次打开时补一轮（一天最多一次）
+        catchUp: true
+        # P3 模型提炼：抓到字幕原文后调宿主的模型，写「要点/金句/我的判断/值不值得再看」。
+        # 关掉 = 与 0.1.0 完全一致的摘句兜底（零模型调用）。
+        refine: true
+        # 喂给模型的字幕上限（字）
+        refineMaxChars: 12000
+        # 每轮最多提炼几条（默认 2；另有「每天最多 perDay 条」的总闸）
+        refinePerRound: 2
+        # 指定模型（`provider/model` 或只写 model）；留空 = 用宿主当前默认模型
+        refineModel: ''
+        # 🔴 自动评论并 @ 你：**默认关**。开了就是拿你的号对外说话。
+        # 评论只引用模型提炼过的要点/金句；该条 refine 被跳过/失败就整条不发（0.2.1 事故修复）。
+        autoComment: false
+        # 要 @ 谁（B站 昵称）：留空 = 自动用登录账号 credential.uname；
+        # 手填值与登录名不一致时，设置页/状态会提示「@ 名 ≠ 登录名，评论会 @ 错人」（不改你填的值）。
+        mentionName: ''
+        commentPerRound: 1
+        commentMinScore: 65
+        # 关注关键词（留空用 duty.js 里那组默认）
+        keywords: []
